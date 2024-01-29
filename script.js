@@ -13,3 +13,19 @@ window.addEventListener("load", start);
     function receiveGuess() {
         
     }
+
+    function checkGuess() {
+
+    }
+
+    function guessIsCorrect() {
+
+    }
+
+    function guessIsTooLow() {
+
+    }
+
+    function guessIsTooHigh() {
+        
+    }

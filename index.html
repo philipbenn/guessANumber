@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guess A Number</title>
+    <title>Guess The Number</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
-    
 </head>
+
 <body>
-    <h1>Guess A Number</h1>
-    
+    <div class="container">
+        <h1 class="mt-5">Guess The Number</h1>
+
+        <p>Guess a number between 1 and 100</p>
+
+        <ul class="list-group" id="list-of-guesses">
+            <li class="list-group-item">You guessed 1 - that was too low, try again!</li>
+            <li class="list-group-item">You guessed 99 - that was too high, try again!</li>
+        </ul>
+
+        <br>
+
+        <form class="mt-3" id="guessing-form">
+            <div class="mb-3">
+                <label for="guess" class="form-label">Enter your guess:</label>
+                <input type="number" class="form-control" id="guess">
+            </div>
+            <button type="button" class="btn btn-primary" id="guess-button">Check</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
     <script src="script.js"></script>
 </body>
+
 </html>
